@@ -1,0 +1,20 @@
+nohup: ignoring input
+Watching for file changes with StatReloader
+[29/Jun/2021 09:05:21] "GET / HTTP/1.1" 200 26
+[01/Jul/2021 02:40:31] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=student%20and%20agriculture&args=e80e89b9e54c129201eb31d65381cfb2&args=93&args=channel1 HTTP/1.1" 200 138
+[01/Jul/2021 02:41:36] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=student%20and%20agriculture&args=e80e89b9e54c129201eb31d65381cfb2&args=94&args=channel1 HTTP/1.1" 200 138
+[01/Jul/2021 02:46:34] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=student%20and%20agriculture&args=e80e89b9e54c129201eb31d65381cfb2&args=94&args=channel1 HTTP/1.1" 200 138
+[01/Jul/2021 03:25:41] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20or%20(teacher%20and%20computer))%20and%20(hust%20or%20xjtu)&args=e80e89b9e54c129201eb31d65381cfb2&args=T94&args=channel1 HTTP/1.1" 200 138
+[01/Jul/2021 03:26:00] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20or%20(teacher%20and%20computer))%20and%20(hust%20or%20xjtu)&args=hashdata&args=T94&args=channel1 HTTP/1.1" 200 138
+[01/Jul/2021 03:26:42] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20or%20(teacher%20and%20computer))%20and%20(hust%20or%20xjtu)&args=hashdata&args=data1&args=channel1 HTTP/1.1" 200 24
+[01/Jul/2021 03:26:54] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20or%20(teacher%20and%20computer))%20and%20(hust%20or%20xjtu)&args=hashdata&args=data94&args=channel1 HTTP/1.1" 200 7
+[01/Jul/2021 03:27:00] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20or%20(teacher%20and%20computer))%20and%20(hust%20or%20xjtu)&args=hashdata&args=T21&args=channel1 HTTP/1.1" 200 138
+[01/Jul/2021 03:27:13] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20or%20(teacher%20and%20computer))%20and%20(hust%20or%20xjtu)&args=hashdata&args=data61&args=channel1 HTTP/1.1" 200 7
+[01/Jul/2021 03:32:56] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20and%20xjtu)&args=hashdata&args=T92&args=channel1 HTTP/1.1" 200 138
+[01/Jul/2021 03:38:10] "GET /addCryptographAndPolicy?requestor=org2_admin&channel_name=channel1&peers=peer0.org2.example.com&cc_name=attr&fcn=attrPolicy&policy_root=(student%20and%20xjtu)&args=hashdata&args=T92213&args=channel1 HTTP/1.1" 200 7
+Not Found: /invokeChaincode
+[01/Jul/2021 06:51:42] "POST /invokeChaincode?requestor=org2_user&invoke_peers=peer0.org2.example.com&channel_name=channel1&cc_name=record&fcn=traceBackward&args=40 HTTP/1.1" 404 3210
+Not Found: /invokeChaincode
+[01/Jul/2021 06:51:53] "POST /invokeChaincode?requestor=org2_user&invoke_peers=peer0.org2.example.com&channel_name=channel1&cc_name=record&fcn=traceBackward&args=41 HTTP/1.1" 404 3210
+Not Found: /invokeChaincode
+[01/Jul/2021 06:53:09] "POST /invokeChaincode?requestor=org2_user&invoke_peers=peer0.org2.example.com&channel_name=channel1&cc_name=record&fcn=traceBackward&args=65 HTTP/1.1" 404 3210
